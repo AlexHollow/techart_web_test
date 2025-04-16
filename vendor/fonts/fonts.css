@@ -1,0 +1,17 @@
+@font-face {
+  font-family: SegoeUI;
+  src: url(./SegoeUI/SegoeUI-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(./OpenSans/OpenSans-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(./OpenSans/OpenSans-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+}
