@@ -1,0 +1,10 @@
+:root {
+    /* colors */
+    --brand-color: rgba(132, 24, 68, 1.0);
+    --grey: rgba(108, 110, 123, 1.0);
+    --body-text: rgba(0, 0, 0, 1.0);
+    --light-grey: rgba(236, 242, 245, 1.0);
+    --white: rgba(255, 255, 255, 1.0);
+    --violet-space: rgba(44, 20, 94, 1.0);
+    --overlay: rgba(0, 0, 0, 0.3);
+}

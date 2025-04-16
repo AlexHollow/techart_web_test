@@ -1,0 +1,48 @@
+/* vender */
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts/fonts.css");
+
+/* vars */
+@import url("./vars.css");
+
+/* page */
+@import url("./blocks/page/page.css");
+
+/* wrapper */
+@import url("./blocks/wrapper/wrapper.css");
+
+/* header */
+@import url("./blocks/header/header.css");
+@import url("./blocks/header/_type/_work-news/header_type_work-news.css");
+
+/* logo */
+@import url("./blocks/logo/logo.css");
+@import url("./blocks/logo/__img/logo__img.css");
+@import url("./blocks/logo/__text/logo__text.css");
+
+/* content */
+@import url("./blocks/content/content.css");
+
+/* news */
+@import url("./blocks/news/news.css");
+@import url("./blocks/news/_type/_work-news/news_type_work-news.css");
+@import url("./blocks/news/__ref-container/news__ref-container.css");
+@import url("./blocks/news/__ref/news__ref.css");
+@import url("./blocks/news/__ref-text/news__ref-text.css");
+@import url("./blocks/news/__title/news__title.css");
+@import url("./blocks/news/__container/news__container.css");
+@import url("./blocks/news/__img/news__img.css");
+
+/* button */
+@import url("./blocks/button/button.css");
+@import url("./blocks/button/_size/_large/button_size_large.css");
+
+/* card */
+@import url("./blocks/card/card.css");
+@import url("./blocks/card/__time/card__time.css");
+@import url("./blocks/card/__title/card__title.css");
+@import url("./blocks/card/__announce/card__announce.css");
+
+/* footer */
+@import url("./blocks/footer/footer.css");
+@import url("./blocks/footer/__text/footer__text.css");

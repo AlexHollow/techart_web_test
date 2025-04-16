@@ -1,0 +1,10 @@
+.banner__img {
+    position: absolute;
+    top: 425px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100%;
+    min-width: 1920px;
+    object-fit: contain;
+}

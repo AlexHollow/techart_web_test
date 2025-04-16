@@ -1,0 +1,16 @@
+.card_type_hovered {
+    cursor: pointer;
+}
+
+.card_type_hovered:hover .card__title {
+    color: var(--brand-color);
+}
+
+.card_type_hovered:hover .button {
+    background-color: var(--brand-color);
+    color: var(--white);
+}
+
+.card_type_hovered:hover .button path {
+    fill: var(--white);
+}

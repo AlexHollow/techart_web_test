@@ -1,0 +1,8 @@
+.banner__title {
+    margin: 0px 0px 30px;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 140%;
+    color: var(--white);
+}

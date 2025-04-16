@@ -1,0 +1,7 @@
+.news__img {
+    display: block;
+    margin: auto 0;
+    width: 740px;
+    height: 570px;
+    object-fit: cover;
+}

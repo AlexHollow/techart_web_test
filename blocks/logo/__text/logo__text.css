@@ -1,0 +1,11 @@
+.logo__text {
+    margin: 0;
+    max-width: 290px;
+    font-family: 'SegoeUI';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 132%;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: var(--violet-space);
+}

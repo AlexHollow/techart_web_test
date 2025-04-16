@@ -1,0 +1,5 @@
+.footer {
+    padding: 64px 0 84px;
+    border-top: 1px solid var(--grey);
+    box-sizing: border-box;
+}
