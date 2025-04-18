@@ -1,0 +1,8 @@
+.footer__text {
+    margin: 0;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--body-text);
+}

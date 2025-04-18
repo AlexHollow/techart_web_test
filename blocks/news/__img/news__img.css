@@ -1,0 +1,12 @@
+.news__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.news__img img {
+    display: block;
+    max-width: 740px;
+    object-fit: contain;
+}

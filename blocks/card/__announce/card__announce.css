@@ -1,0 +1,16 @@
+.card__announce {
+    margin: 0;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--body-text);
+}
+
+.card__announce p {
+    margin: 0 0 22px;
+}
+
+.card__announce p:last-of-type {
+    margin: 0;
+}

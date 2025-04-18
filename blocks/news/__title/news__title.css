@@ -1,0 +1,8 @@
+.news__title {
+    margin: 0 0 60px;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 140%;
+    color: var(--body-text);
+}

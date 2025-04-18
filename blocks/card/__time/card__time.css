@@ -1,0 +1,14 @@
+.card__time {
+    margin: 0;
+    padding: 6px 18px;
+    max-width: fit-content;
+    border-radius: 20px;
+    height: 34px;
+    background-color: var(--light-grey);
+    box-sizing: border-box;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--grey);
+}

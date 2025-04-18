@@ -1,0 +1,8 @@
+.card__title {
+    margin: 0;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--body-text);
+    transition: .2s;
+}

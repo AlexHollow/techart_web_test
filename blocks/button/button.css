@@ -1,0 +1,32 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 54px;
+    border: 2px solid var(--brand-color);
+    box-sizing: border-box;
+    background: none;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--brand-color);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.button:hover {
+    background-color: var(--brand-color);
+    color: var(--white);
+}
+
+.button path {
+    fill: var(--brand-color);
+    transition: .2s;
+}
+
+.button:hover path {
+    fill: var(--white);
+}

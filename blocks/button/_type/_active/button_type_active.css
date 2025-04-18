@@ -1,0 +1,4 @@
+.button_type_active {
+    background-color: var(--brand-color);
+    color: var(--white);
+}
