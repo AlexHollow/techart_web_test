@@ -28,7 +28,7 @@ $work_news_data = $work_news_query->fetchAll(PDO::FETCH_ASSOC);
             <div class="wrapper">
                 <div class="news__ref-container">
                     <p class="news__ref-text">
-                        <a class="news__ref" href="./index.php">Главная / </a>
+                        <a class="news__ref" href="/">Главная / </a>
                         <?php echo($work_news_data[0]['title']); ?>
                     </p>
                 </div>

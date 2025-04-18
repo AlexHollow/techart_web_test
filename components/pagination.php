@@ -1,7 +1,7 @@
 <?php
 
 $news_per_page = 4;
-$current_page = $_GET['page'];
+$current_page = isset($_GET['page']) ? $_GET['page'] : 1;
 
 if (!isset($current_page)) {
     $current_page = 1;
