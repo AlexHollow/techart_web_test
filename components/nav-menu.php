@@ -28,7 +28,23 @@ $next_page = $current_page + 1;
         ');
     }
 
-    for ($i = 1; $i <= $max_pages_count; ++$i) {
+    $page_condition;
+	switch ($current_page) {
+        case 1:  {
+            $page_condition = $current_page + 1;
+            break;
+        }
+        case $max_pages_count: {
+            $page_condition = $current_page - 1;
+            break;
+        }
+        default: {
+            $page_condition = $current_page;
+            break;
+        }
+	}
+
+    for ($i = $page_condition - 1; $i <= $page_condition + 1; ++$i) {
         if ($i == $current_page) {
             echo('<div class="button button_size_small button_type_active">' . $i . '</div>');
         } else {
