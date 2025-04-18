@@ -1,5 +1,5 @@
 .card__announce {
-    margin: 0 0 22px;
+    margin: 0;
     font-family: 'OpenSans';
     font-weight: 400;
     font-size: 20px;
@@ -7,6 +7,10 @@
     color: var(--body-text);
 }
 
-.card__announce:last-of-type {
+.card__announce p {
+    margin: 0 0 22px;
+}
+
+.card__announce p:last-of-type {
     margin: 0;
 }
