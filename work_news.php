@@ -28,7 +28,7 @@ $work_news_data = $work_news_query->fetchAll(PDO::FETCH_ASSOC);
             <div class="wrapper">
                 <div class="news__ref-container">
                     <p class="news__ref-text">
-                        <a class="news__ref" href="/">Главная / </a>
+                        <a class="news__ref" href="./">Главная / </a>
                         <?php echo($work_news_data[0]['title']); ?>
                     </p>
                 </div>
@@ -38,7 +38,7 @@ $work_news_data = $work_news_query->fetchAll(PDO::FETCH_ASSOC);
                 </h2>
 
                 <ul class="news__container">
-                    <li>
+                    <li class=news__list-element>
                         <div class="card">
                             <div class="card__time">
                                 <?php

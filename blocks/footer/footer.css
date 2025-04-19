@@ -1,3 +1,22 @@
 .footer {
+    margin: 0;
     padding: 64px 0 84px;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--body-text);
+}
+
+@media screen and (max-width: 1600px) {
+    .footer {
+        padding: 64px 20px 84px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        font-size: 16px;
+        padding: 40px 20px 60px;
+    }
 }

@@ -5,3 +5,16 @@
     justify-content: end;
     gap: 16px;
 }
+
+@media screen and (max-width: 600px) {
+    .news__nav-menu {
+        margin: 60px 0 0;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .news__nav-menu svg {
+        width: 24px;
+        height: 22px;
+    }
+}

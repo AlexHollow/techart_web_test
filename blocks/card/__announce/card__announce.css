@@ -14,3 +14,9 @@
 .card__announce p:last-of-type {
     margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .card__announce {
+        font-size: 16px;
+    }
+}

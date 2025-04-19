@@ -12,7 +12,7 @@
         
     ?>
 
-    <li>
+    <li class="news__list-element">
         <a class="card card_type_hovered"
             href="./work_news.php?id=<?php echo($news['id']); ?>">
 

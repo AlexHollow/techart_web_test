@@ -6,3 +6,10 @@
     line-height: 140%;
     color: var(--white);
 }
+
+@media screen and (max-width: 600px) {
+    .banner__title {
+        margin: 0px 0px 15px;
+        font-size: 34px;
+    }
+}
