@@ -2,3 +2,9 @@
     border-radius: 50%;
     width: 56px;
 }
+
+@media screen and (max-width: 600px) {
+    .button_size_small {
+        display: none;
+    }
+}

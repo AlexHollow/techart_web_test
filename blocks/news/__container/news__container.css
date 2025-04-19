@@ -7,3 +7,9 @@
     padding: 0;
     list-style: none;
 }
+
+@media screen and (max-width: 600px) {
+    .news__container {
+        row-gap: 62px;
+    }
+}

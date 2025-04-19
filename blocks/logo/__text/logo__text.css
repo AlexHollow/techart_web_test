@@ -9,3 +9,9 @@
     text-transform: uppercase;
     color: var(--violet-space);
 }
+
+@media screen and (max-width: 600px) {
+    .logo__text {
+        font-size: 18px;
+    }
+}

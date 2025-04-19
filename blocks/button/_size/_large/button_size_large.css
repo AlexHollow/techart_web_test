@@ -2,3 +2,9 @@
     border-radius: 50px;
     padding: 16px 40px;
 }
+
+@media screen and (max-width: 600px) {
+    .button_size_large {
+        padding: 15px 15px;
+    }
+}

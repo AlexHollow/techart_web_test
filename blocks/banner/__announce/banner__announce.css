@@ -1,8 +1,15 @@
 .banner__announce {
     margin: 0px;
+    max-height: 250px;
     font-family: 'OpenSans';
     font-weight: 400;
     font-size: 32px;
     line-height: 160%;
     color: var(--white);
+}
+
+@media screen and (max-width: 600px) {
+    .banner__announce {
+        font-size: 20px;
+    }
 }

@@ -4,11 +4,20 @@
     max-width: fit-content;
     border-radius: 20px;
     height: 34px;
-    background-color: var(--light-grey);
     box-sizing: border-box;
+    background-color: var(--light-grey);
     font-family: 'OpenSans';
     font-weight: 400;
     font-size: 16px;
+    line-height: normal;
     text-transform: uppercase;
+    vertical-align: middle;
     color: var(--grey);
+}
+
+@media screen and (max-width: 600px) {
+    .card__time {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
 }
