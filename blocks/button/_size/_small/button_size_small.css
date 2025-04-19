@@ -5,6 +5,6 @@
 
 @media screen and (max-width: 600px) {
     .button_size_small {
-        display: none;
+        width: 42px;
     }
 }
